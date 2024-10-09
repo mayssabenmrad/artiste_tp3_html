@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Contact</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Mayssa Ben M'rad">
+    <meta name="keywords" content="tp,html,taylor">
+    </head>
+    <body>
+        
+    <header>
+        <h1><center>Contact</center></h1>
+        <nav>
+            
+            <table>
+                <tr>
+                    <td><h5><a href="index.html" target="_blank">revenir à la page menu</a></h5></td>
+                    <td><h5><a href="evenements.html" target="_blank">Evénements</a></h5></td>
+                    <td><h5><a href="galerie.html" target="_blank">Galerie</a></h5></td>
+                </tr>
+            </table>
+        </nav>
+        En remplissant ce formulaire, vous entrez en <b>contact direct avec l'équipe de Taylor Swift</b>.
+    </header>
+    <form action="http://google.com" method="post" name="formulaire">
+        <fieldset>
+            <legend>
+                Informations Personnelles
+            </legend>
+            
+        <label for="nom">
+            Nom:
+             </label>
+             <input type="text" id="nom" name="nom" size="15" maxlength="15"/>
+        </br>
+        <label for="prénom">
+            Prénom: 
+            </label>
+            <input type="text" id="prénom" name="prénom"  size="15" maxlength="15"/>
+            <br/>
+            <label for="date">Date de naissance:</label>
+            <input type="date" id="date" name="date"/>
+            <br/>
+            <label for="genre">Genre:</label>
+            <select name="genre" id="genre">
+                <option value="Mlle">Mademoiselle</option>
+                <option value="Mme">Madame</option>
+                <option value="Mr">Monsieur</option>
+            </select>
+            </br>
+            <label for="idt">Identifiant*: </label><input type="text" id="idt" name="idt" size="15" maxlength="15" required/>
+            <br/>
+            <label for="Pays">Pays:</label>
+            <select name="ville" id="ville" size="2">
+                <option value="tn">Tunisie</option>
+                <option value="fr">France</option>
+                <option value="usa">USA</option>
+                <option value="esp">Espagne</option>
+                <option value="it">Italie</option>
+            </select>
+            </br>
+            <label for="occupation">
+                Que faites-vous dans la vie?
+                
+            </label>
+            <input type="text" name="occupation" id="occupation"/>
+            <br/>
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo"/>
+            <br/>
+        </fieldset>
+        <fieldset>
+            <legend>Comment pouvons-nous vous contacter?</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="exemple@gmail.com"/>
+            <br/>
+            <label for="tel">Téléphone:</label>
+            <input type="tel" id="tel" name="tel" placeholder="27521990"/>
+            <br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Qu'aimez-vous chez Taylor Swift?</legend>
+            </label for="song">
+            Chanson préférée:
+            <input type="text" id="song" name="song"  size="15" maxlength="15"/>
+            <br/>
+            </label for="album">
+            Album préféré:
+            <input type="text" id="album" name="album"  size="15" maxlength="15"/>
+            <br/>
+            </label for="event">
+            L'évènement qui t'a le plus marqué:
+            <input type="text" id="event" name="event"  size="15" maxlength="15"/>
+            <br/>
+            <label for="aspects">Quels aspects admirez-vous chez Taylor Swift?</label>
+            <br/>
+            <input type="checkbox" name="aspects" id="aspects" checked/>Voix
+            <input type="checkbox" name="aspects" id="aspects" />Créativité 
+            <input type="checkbox" name="aspects" id="aspects" />Performance sur scène
+            <input type="checkbox" name="aspects" id="aspects"  />Apparence Générale
+            <input type="checkbox" name="aspects" id="aspects"  />Personnalité
+            <br/>
+            <label for="facteurs">
+            D'après vous, quels sont les facteurs qui ont contribué au succès mondial de Taylor Swift?
+            <br/>
+            <textarea name="facteurs" id="facteurs" rows="5" cols="100"></textarea>
+            </label>
+            <br/>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend>Critique constructive</legend>
+            <label for="negative">
+                D'après vous, quels sont les principaux points négatifs et les défauts de Taylor?
+                <br/>
+                <textarea name="negative" id="negative" rows="5" cols="100"></textarea>
+                </label>
+                <br/>
+                <label for="propositions">
+                    Que suggérez-vous pour aider Taylor Swift à s'améliorer davantage?
+                    <br/>
+                    <textarea name="propositions" id="propositions" rows="5" cols="100"></textarea>
+                    </label>
+                    <br/>
+            <br/>
+        </fieldset>
+        <fieldset>
+            <legend>Que souhaitez-vous dire à l'artiste</legend>
+            <label for="raison">Pour quelles raisons souhaitez-vous contacter Taylor Swift:</label>
+            <br/>
+            <input type="radio" id="raison" name="raison" value="1"/>Personnelles
+            <input type="radio" id="raison" name="raison" value="2"/>Professionnelles
+            </br>
+            <label for="message">
+                Message particulier que vous souhaitez communiquer à Taylor Swift: 
+                <br/>
+                <textarea name="facteurs" id="facteurs" rows="5" cols="100"></textarea>
+                </label>
+                <br/>
+        </fieldset>
+        <br/>
+    <input type="submit" value="envoyer"/>
+    <input type="reset" value="effacer"/>
+    <br/>
+    Merci pour l'intérêt que vous portez à Taylor Swift
+    <br/>
+    Nous vous contacterons le plus tôt possible
+    </form>
+    <br/>
+    <footer>
+        Created by Mayssa Ben M'rad
+        <br/>
+        <a href="mailto:b.mrad.mayssa@gmail.com">b.mrad.mayssa@gmail.com</a>
+        
+            <a href="tel:27521990">27521990</a>
+            <br/>
+    </footer>
+    </form>
+    </body>
+</html>
